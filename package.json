@@ -1,0 +1,16 @@
+{
+  "name": "testing-pkp",
+  "version": "1.0.2",
+  "description": "steps to building npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "testing"
+  ],
+  "author": "Prince Kumar Prasad",
+  "license": "ISC"
+}
