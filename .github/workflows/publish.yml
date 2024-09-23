@@ -28,6 +28,7 @@ jobs:
         run: npm publish
 
       - name: Create GitHub release (Optional)
+        if: success()  # This ensures the release step runs only if previous steps succeed
         uses: softprops/action-gh-release@v1
         with:
           files: "*.tgz"
