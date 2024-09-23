@@ -1,6 +1,6 @@
 {
   "name": "testing-pkp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "steps to building npm packages",
   "main": "index.js",
   "scripts": {
